@@ -1,0 +1,12 @@
+<div class="select-global" data-select="{{option.name |  handleize}}">    
+    <label>{{ option.name }} : <text-value></text-value></label>
+    <div class="container-train">
+        <div data-name="{{option.name | downcase}}">
+            <img src="{{ "icon-arrow.svg" |  asset_url  }}">
+            {%- for value in option.values -%}
+                <div data-handle="{{value | handleize }}" data-option="{{value | handleize }}" data-value="{{value}}" class="{% unless product_card_product.selected_or_first_available_variant.available %} sold-out {% endunless %}"><span>{{ value }}</span></div>
+            {%- endfor -%}
+            <img class="last" src="{{ "icon-arrow.svg" |  asset_url  }}">
+        </div>    
+    </div> 
+</div>

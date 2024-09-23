@@ -1,0 +1,20 @@
+{% assign badge_position = settings.badge_position %}
+{% unless product_card_product.available %}
+<span class="corner-treatment corner-treatment--left out-of-stock {{ badge_position }}">{{ 'products.product.sold_out' | t }}</span>
+{% endunless %}
+{% comment %}
+{% if product_card_product.compare_at_price > product_card_product.price and product_card_product.available %}
+{%- if settings.sale_badge_type == 'save_amount' -%}
+  {%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | money }}{%- endcapture -%}
+{%- elsif settings.sale_badge_type == 'save_percentage' -%}
+  {%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | times: 100.0 | divided_by: product_card_product.compare_at_price | round }}%{%- endcapture -%}
+{%- endif -%}
+ <span class="corner-treatment corner-treatment--left onsale {{ badge_position }}">
+	{%- if settings.sale_badge_type == 'sale' -%}
+	{{ 'products.product.on_sale' | t }}
+	{%- else -%}
+	{{ 'products.product.save_html' | t: saved_amount: saved_amount }}
+	{%- endif -%}
+	
+{% endif %}
+</span> {% endcomment %}

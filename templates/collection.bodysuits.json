@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "83937e64-94b8-4a0c-9bc7-7e6e53ca11fe": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--14853014716452__83937e64-94b8-4a0c-9bc7-7e6e53ca11fe-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Add campaign text here.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--14853014716452__83937e64-94b8-4a0c-9bc7-7e6e53ca11fe-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Add campaign text here.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "template--14853014716452__83937e64-94b8-4a0c-9bc7-7e6e53ca11fe-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Add campaign text here.",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14853014716452__83937e64-94b8-4a0c-9bc7-7e6e53ca11fe-text-1",
+        "template--14853014716452__83937e64-94b8-4a0c-9bc7-7e6e53ca11fe-text-2",
+        "template--14853014716452__83937e64-94b8-4a0c-9bc7-7e6e53ca11fe-text-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 16,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#f5f3ef",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "79138e6f-e9c9-450b-b348-bf321cce3534": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": true,
+        "description": "<p>Add a short description for your collections<\/p>",
+        "full_width": true,
+        "collection_list": [
+
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_xEFYjx": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "09fe9124-74eb-426f-ac27-321f66fdbae7": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/promotion_collectionbanner_1_merry_bright.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#ee5578",
+            "overlay_opacity": 0
+          }
+        },
+        "c2a7f642-62f2-4f44-ad7b-9d455b5eb7d2": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_bodysuits.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/colombian-jeans",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/collections\/colombian-jeans",
+            "overlay_color": "#ee5578",
+            "overlay_opacity": 0
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/jumpsuits",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/jumpsuits",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "09ddee99-488e-43b1-82ec-19ed556992e5": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_scarygoodsale_61e5f108-fea6-4d00-8d53-399cf5c66978.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#ee5578",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "09fe9124-74eb-426f-ac27-321f66fdbae7",
+        "c2a7f642-62f2-4f44-ad7b-9d455b5eb7d2",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "09ddee99-488e-43b1-82ec-19ed556992e5"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 18,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "butt-lifters-shorts",
+          "colombian-jeans",
+          "butt-lifting-shorts",
+          "butt-lifting-leggings",
+          "shaping-bodysuit"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 125,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "166367231494317262": {
+      "type": "rich-text",
+      "blocks": {
+        "1fc06b12-e359-41a2-b694-099a6a7d4133": {
+          "type": "heading",
+          "settings": {
+            "text": "SHAPING BODYSUITS",
+            "size": "h4"
+          }
+        },
+        "16636723131a14a571-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our meticulously curated selection of shapewear bodysuits is designed to empower you with unmatched comfort and sculpting support. Embrace your inner beauty and celebrate your unique curves as you slip into these exceptional pieces..<\/p><p>Crafted with precision and attention to detail, our slimming bodysuits redefine your silhouette, offering a seamless and flattering fit. Whether you're dressing up for a special occasion or seeking daily confidence, our sculpting bodysuits are your trusted wardrobe staple.<\/p><p>At Colombiana Boutique, we understand that confidence is the key to feeling your best. Our Shaping Bodysuits Collection is tailored to enhance your natural beauty while providing the ultimate level of comfort. You deserve to radiate confidence and turn a few heads, and our bodysuits are here to help you achieve just that.<\/p><p>Indulge in the world of elegance, sophistication, and self-assuredness with Colombiana Boutique's Shaping Bodysuits Collection. Elevate your style, embrace your curves, and make every moment your runway. Experience the transformative power of our shapewear and redefine your beauty today!<\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "1fc06b12-e359-41a2-b694-099a6a7d4133",
+        "16636723131a14a571-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "83937e64-94b8-4a0c-9bc7-7e6e53ca11fe",
+    "79138e6f-e9c9-450b-b348-bf321cce3534",
+    "spacer_xEFYjx",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "166367231494317262",
+    "166367228131c52c01"
+  ]
+}

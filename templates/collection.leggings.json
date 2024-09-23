@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "79138e6f-e9c9-450b-b348-bf321cce3534": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": true,
+        "description": "<p>Add a short description for your collections<\/p>",
+        "full_width": true,
+        "collection_list": [
+
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_rUkhif": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "0d83f3d5-b93d-447a-82ec-8876d499271e": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/promotion_collectionbanner_1_merry_bright.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#ee5578",
+            "overlay_opacity": 0
+          }
+        },
+        "c2a7f642-62f2-4f44-ad7b-9d455b5eb7d2": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_1_leggings.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#ee5578",
+            "overlay_opacity": 0
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/jumpsuits",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/jumpsuits",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "ecf3a7ac-99e7-41c1-a379-1583ee434915": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_scarygoodsale_61e5f108-fea6-4d00-8d53-399cf5c66978.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#ee5578",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "0d83f3d5-b93d-447a-82ec-8876d499271e",
+        "c2a7f642-62f2-4f44-ad7b-9d455b5eb7d2",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "ecf3a7ac-99e7-41c1-a379-1583ee434915"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 18,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "butt-lifters-shorts",
+          "colombian-jeans",
+          "butt-lifting-shorts",
+          "butt-lifting-leggings",
+          "shaping-bodysuit"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "87bc51c2-912c-48e7-b811-9fe5de48bb04": {
+      "type": "custom-description",
+      "settings": {
+      }
+    },
+    "166367231494317262": {
+      "type": "rich-text",
+      "blocks": {
+        "1fc06b12-e359-41a2-b694-099a6a7d4133": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "BUTT LIFT LEGGINGS",
+            "size": "h4"
+          }
+        },
+        "16636723131a14a571-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>At Colombiana Boutique, we seamlessly blend fashion with function in our curated collection of butt-lifting leggings. Our leggings, featuring integrated compression, are meticulously crafted to not only enhance your appearance but also deliver the essential support that empowers you with confidence.<\/p><p>Our butt lifting leggings are a must-have addition to your wardrobe, offering a flattering silhouette that enhances your natural curves. With these compression leggings, you'll experience the magic of a lifted and toned appearance, making every step you take an opportunity to show off your unique beauty. We not only provide timeless black leggings, a wardrobe essential for every woman, but also offer leggings in a variety of colors to complement all your ensembles.<\/p><p>Colombiana Boutique knows that leggings are a closet essential for every woman. That’s why we've crafted our butt lifting leggings for versatile style and function, whether it’s the gym, errands, or a night out. Many of our styles feature tummy control AND butt lifting for a perfect combination!<\/p><p>Elevate your everyday style with Colombiana Boutique's butt lifting leggings. Make a statement with leggings that not only enhance your figure but also boost your confidence. With our leggings, you'll always step out in style, feeling your best.<\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "1fc06b12-e359-41a2-b694-099a6a7d4133",
+        "16636723131a14a571-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "79138e6f-e9c9-450b-b348-bf321cce3534",
+    "spacer_rUkhif",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "87bc51c2-912c-48e7-b811-9fe5de48bb04",
+    "166367231494317262",
+    "166367228131c52c01"
+  ]
+}

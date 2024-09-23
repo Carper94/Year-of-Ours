@@ -1,0 +1,22 @@
+
+
+
+<div class="rich-text text-width-xlarge">
+  <div style="text-align: center;" class="rich-text__inner">
+    {{ collection.metafields.custom.description_collection | metafield_tag }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection Description",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Custom Collection Description"
+    }
+  ]
+}
+{% endschema %}

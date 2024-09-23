@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main-product-quick-view": {
+      "type": "main-product-quick-view",
+      "blocks": {
+        "d6e44c03-7bcd-4146-86c1-6b9bedaee1a5": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "uppercase": true,
+            "show_products_rating": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "d6e44c03-7bcd-4146-86c1-6b9bedaee1a5",
+        "title",
+        "variant_picker",
+        "buy_buttons"
+      ],
+      "settings": {
+        "show_taxes_included": true,
+        "media_aspect_ratio": "adapt",
+        "hide_variants": false
+      }
+    }
+  },
+  "order": [
+    "main-product-quick-view"
+  ]
+}

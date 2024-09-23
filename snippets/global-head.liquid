@@ -1,0 +1,350 @@
+<script>  
+let global={
+    ready(fn){if (document.readyState === "complete" || document.readyState === "interactive") {setTimeout(fn, 1);} else {document.addEventListener("DOMContentLoaded", fn);}},
+    handle(text){ return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '').replace(/^-/, '');},
+    products:{},
+    product:{},
+    add:
+    {
+        variant(id) 
+        {
+                
+            let formData={'items': [{'id': id,'quantity': 1}]};
+            fetch('/cart/add.js',
+            {
+                method: 'POST',
+                headers: 
+                {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => 
+            {
+                return response.json();
+            })
+            .then(data => 
+            {        
+                /*actions*/ 
+            })         
+            .catch((error) => 
+            {
+                console.error('Error:', error);
+            }); 
+        }   
+    }                          
+}
+
+global.product=
+{
+    first:function(product)
+    {
+        let variant;
+        for(let i in product.variants)
+        {
+            variant=product.variants[i];
+            if(variant.available)
+            {
+                return variant;
+            }
+        }
+    },   
+    position:function(product,name)
+    {
+        let option;
+        let count=0;
+        for(let i in product.options)
+        {
+            option=global.handle(product.options[i]); 
+            if(name == option)
+            {
+                count=i;
+                break;
+            }
+        }
+        return count
+    },
+    updateAvailable: function(data, values, target){
+        let elementOptions = Array.from(data.card.querySelector('[data-name="size"]').children)
+        let valueSelected = target.getAttribute('data-value') || target.innerText
+        let parentSelect = target.parentNode.getAttribute('data-name') || target.parentNode.parentNode.getAttribute('data-name')
+        let variantsForTarget = data.product.variants.filter((variant) => variant.options.includes(valueSelected))
+
+        if(parentSelect != 'size'){
+            elementOptions.forEach((dataV) => {
+                let dataValue = dataV.getAttribute('data-value')
+                let variantData = values.length < 3 
+                    ? variantsForTarget.find( valu => valu.options.includes(dataValue)) 
+                    : variantsForTarget.find( valu => valu.options.includes(dataValue) && valu.options.includes(values[1]) && valu.options.includes(values[2]) )
+                if(variantData) {
+                    if(!variantData.available){
+                        dataV.classList.add('sold-out')
+                    } else {
+                        dataV .classList.remove('sold-out')
+                    }
+                } else {
+                    dataV.classList.add('sold-out')
+                }
+            })
+        }
+    },
+    change:function(data, target)
+    {
+        let variant,successes,btn;
+        let values=[];
+        data.card.querySelectorAll(`[data-handle].selected`).forEach(function(selected)
+        {            
+            values.push(selected.dataset.value)  
+        })
+        for(let i in data.product.variants)
+        {
+            successes=0;
+            variant=data.product.variants[i];
+            for(let b in variant.options)
+            {
+                if(values[b] == variant.options[b])
+                {
+                    successes+=1;                    
+                }
+            }
+            if(successes == values.length)
+            {
+                let swatches=data.card.querySelectorAll(".product-card-swatches .product-card-swatch");
+                let swatch;
+                for(let i=0;i < swatches.length; i++)
+                {
+                    swatch=swatches[i];
+                    let handle=global.handle(swatch.innerText);
+                    let handle2=global.handle(variant.options[this.position(data.product,"color")])
+                    if(handle==handle2)
+                    {
+                        var event = new MouseEvent('mouseover');
+                        swatch.dispatchEvent(event);
+                        break;
+                    }
+                }
+                btn=data.card.querySelector(".cart-btn");
+                if(!variant.available)
+                {                    
+                    btn.disabled=true;
+                    btn.innerText="SOLD OUT";
+                    btn.classList.add("sold-out");
+                }
+                else
+                {
+                    btn.disabled=false;
+                    btn.innerText="ADD TO CART";                    
+                    btn.classList.remove("sold-out");                    
+                }
+                btn.dataset.productId=variant.id; 
+                break;
+            } else {
+                btn=data.card.querySelector(".cart-btn");
+
+                btn.disabled=true;
+                btn.innerText="SOLD OUT";
+                btn.classList.add("sold-out");
+            }
+        } 
+        global.product.updateAvailable(data, values, target)
+    },
+    events:function(data)
+    {
+        let option,select,handle,all;
+        for(let i in data.product.options)
+        {
+            option=data.product.options[i];                
+            handle=global.handle(option);    
+            select=data.card.querySelector(`[data-select="${handle}"]`);
+            if(!select){ continue; }                              
+            all=select.querySelectorAll(`[data-handle`);     
+            all.forEach(function(element)
+            {
+                element.addEventListener("click",function(e)
+                {
+                    select=this.closest(`[data-select]`);
+                    text=select.querySelector(`text-value`);                                                
+                    select.querySelectorAll(`[data-handle`).forEach(function(remove)
+                    {
+                        remove.classList.remove("selected");
+                    });
+                    this.classList.add("selected");
+                    text.innerText=this.dataset.value;  
+                    global.product.change(data, e.target);
+                })
+            })
+        }
+    },    
+    properties:
+    {        
+        compare(data)
+        {
+            let option,value,value2;
+            const selected=data.variant;
+            const variant=data.compare;  
+            const total=data.product.options.length - 1;
+            let counter=0;
+            for(let position in data.product.options)
+            {               
+                if(data.position == position ){ continue }
+                option=data.product.options[position]
+                value=global.handle(selected.options[position]); 
+                value2=global.handle(variant.options[position]); 
+                if(value == value2)
+                {
+                    counter+=1;
+                }
+            }
+            if(counter == total){ return false; }
+            return true;
+        },
+        exist(data)
+        {
+            const variants=data.product.variants;       
+            let variant;
+            for(let position in data.product.options)
+            {      
+                for(let i in variants)
+                {
+                    variant=variants[i];                       
+                    data.compare=variant;
+                    data.position=position;                     
+                    if(this.compare(data)){ continue; }
+                    data.value=global.handle(variant.options[position]);                                                          
+                    if(variant.available == true)
+                    { 
+                        this.available(data,true)
+                    }
+                    else
+                    {
+                        this.available(data,false)
+                    }                    
+                }          
+            }  
+        },
+        available(data,validate)
+        {            
+            let propertie=data.card.querySelector(`[data-handle="${data.value}"]`);
+            let isColor = propertie.getAttribute('data-color')
+            if(isColor){ return false}
+            if(!propertie){ return console.log("--------[ not found "+data.value+"]--------"); }
+            if(validate)
+            {
+                propertie.classList.remove("sold-out");
+            }
+            else
+            {
+                propertie.classList.add("sold-out");
+            }            
+        }
+    },     
+    selected:function(data)
+    {
+        let value,option,select,handle,selected,text;
+        for(let i in data.variant.options)
+        {
+            value=data.variant.options[i];
+            for(let b in data.product.options)
+            {
+                option=data.product.options[b];                
+                handle=global.handle(option);    
+                select=data.card.querySelector(`[data-select="${handle}"]`);
+                if(!select){ continue; }
+                handle=global.handle(value);  
+                selected=select.querySelector(`[data-handle="${handle}"]`);
+                if(!selected){ continue; }
+                selected.classList.add("selected");
+                text=select.querySelector(`text-value`);
+                if(!text){ continue; }            
+                text.innerText=value;                
+                this.properties.exist(data)                          
+                break;
+            }
+        }      
+    },
+    install:function(card)
+    {
+        let data={status:true,product:null,card:card,variant:null};
+        card.querySelectorAll(`.select-global .container-train img`).forEach(function(btn)
+        {            
+            if(btn.classList.contains("last"))
+            {
+                btn.addEventListener("click",function()
+                {
+                    let riel=this.closest("[data-name]");
+                    riel.scrollLeft+=28;
+                })                
+            }
+            else
+            {
+                btn.addEventListener("click",function()
+                {
+                    let riel=this.closest("[data-name]");
+                    riel.scrollLeft-=28;
+                })                  
+            }
+        })
+        try
+        {
+            const id=card.dataset.productId;
+            data.product=global.products[id];
+            data.variant=this.first(data.product);
+            this.selected(data);
+            this.events(data);        
+            return data;
+        }
+        catch
+        {
+            return {status:false};
+        }
+    }               
+}   
+global.ready(function()
+{
+    document.querySelectorAll("product-card").forEach(function(card)
+    {
+        let btn=card.querySelector(".cart-btn")
+        if(!btn){ return false; }
+        let data=global.product.install(card);
+        card.addEventListener("click",function()
+        {
+            card.classList.add("opened");
+        })   
+        if(data.status == false ){ return false; }
+        card.classList.add("installed");
+
+        btn.dataset.productId=data.variant.id;        
+    })
+
+    const pagination = document.querySelector('pagination-theme')
+    const filterEl = document.querySelector('facet-filters-form')
+    
+    const config = { attributes: true };
+    const configFilter = { attributes: true, subtree: true, childList: true};
+
+    const observer = new MutationObserver(() => {
+            Array.from(document.querySelectorAll("product-card")).forEach(function(card) {
+
+                let productJson = JSON.parse(card.getAttribute('data-product-json'))
+                if(!productJson) return;
+                Object.assign(global.products,{[productJson.id]: productJson})
+
+                let btn=card.querySelector(".cart-btn")
+                if(!btn){ return false; }
+                let data=global.product.install(card);
+                
+                card.addEventListener("click",function() {
+                    card.classList.add("opened");
+                })
+                if(data.status == false ){ return false; }
+                card.classList.add("installed");
+                
+                btn.dataset.productId=data.variant.id;        
+            })
+
+    }) 
+
+    if(filterEl) observer.observe(filterEl, configFilter)
+    if(pagination) observer.observe(pagination, config)
+})     
+</script>

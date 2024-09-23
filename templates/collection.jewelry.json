@@ -1,0 +1,224 @@
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "79138e6f-e9c9-450b-b348-bf321cce3534": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": true,
+        "description": "<p>Add a short description for your collections<\/p>",
+        "full_width": true,
+        "collection_list": [
+
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_tXJ3pt": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "c2a7f642-62f2-4f44-ad7b-9d455b5eb7d2": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_bodysuits.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#ee5578",
+            "overlay_opacity": 0
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_1e_393abece-9eb2-4287-9d61-896b9e8f7a1a.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/jumpsuits",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/jumpsuits",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "c2a7f642-62f2-4f44-ad7b-9d455b5eb7d2",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 18,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "butt-lifters-shorts",
+          "colombian-jeans",
+          "butt-lifting-shorts",
+          "butt-lifting-leggings",
+          "shaping-bodysuit"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 125,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "1ddb4a61-6251-4f17-97cf-35be8de373ba": {
+      "type": "custom-description",
+      "settings": {
+      }
+    },
+    "166367231494317262": {
+      "type": "rich-text",
+      "blocks": {
+        "1fc06b12-e359-41a2-b694-099a6a7d4133": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "COMPRESSION BODYSUIT",
+            "size": "h4"
+          }
+        },
+        "16636723131a14a571-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Experience a new level of confidence and beauty with our carefully curated selection of high compression faja. Crafted with precision and dedication, these garments are designed to redefine your curves, providing the ultimate support and comfort you deserve.<\/p><p>Crafted with precision and innovation, our compression bodysuit is a pinnacle of engineering and expertise.It elevates your natural contours, giving you that coveted hourglass figure while offering the support needed for everyday wear or special occasions.<\/p><p>For an all-in-one solution that combines the best of fashion and function, we invite you to explore our Fajas Nicolette Collection, meticulously designed with the intention of empowering you to embrace your inner beauty and radiate elegance with every single step you take.<\/p><p>This collection is not just about shapewear; it's a celebration of confidence and self-assuredness. It's about recognizing that your unique curves and contours are a testament to your individuality and strength. <\/p><p>Elevate your style, celebrate your curves, and turn heads with Colombiana Boutique's Fajas Nicolette Collection. Experience the transformative power of high compression shapewear and unveil your true radiance today!<\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "1fc06b12-e359-41a2-b694-099a6a7d4133",
+        "16636723131a14a571-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "main-collection-banner",
+    "79138e6f-e9c9-450b-b348-bf321cce3534",
+    "spacer_tXJ3pt",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "1ddb4a61-6251-4f17-97cf-35be8de373ba",
+    "166367231494317262",
+    "166367228131c52c01",
+    "shogun-below"
+  ]
+}

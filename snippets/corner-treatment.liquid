@@ -1,0 +1,16 @@
+{% assign corner_one = product_card_product.metafields.custom.corner_treatment.value %}
+{% assign corner_two = product_card_product.metafields.custom.corner_treatment_second.value %}
+
+{% if product_card_product.available %}
+	{% if corner_one.title %}
+	<div class="corner-treatment {% if corner_one.position_right %} corner-treatment--right {% else %} corner-treatment--left{% endif %}"
+		style="background-color: {{ corner_one.color }};"
+		>{{ corner_one.title | upcase }}</div>
+	{% endif %}
+	
+	{% if corner_two.title %}
+	<div class="corner-treatment {% if corner_two.position_right %} corner-treatment--right {% else %} corner-treatment--left{% endif %}"
+		style="background-color: {{ corner_two.color }};"
+		>{{ corner_two.title | upcase }}</div>
+	{% endif %}
+{% endif %}

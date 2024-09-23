@@ -1,0 +1,24 @@
+<div class="iconography">
+   {%- if items != blank -%}
+      {%- for i in (1..4) -%}
+         {% assign img_item = "value_" | append: forloop.index | append: "_image" %}
+         {% assign point = "value_" | append: forloop.index | append: "_title" %}
+         <div class="iconography__content">
+            <div class="iconography__image">
+               <img 
+                  src="{{ items[img_item] | image_url: width: '100' }}" 
+                  alt="{{ items[point] }}"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+               >
+            </div>
+            <div class="iconography__text">
+               <h6 class="iconography__title">
+                  {{ items[point] }}
+               </h6>
+            </div>
+         </div>
+      {%- endfor -%}
+   {%- endif -%}
+</div>

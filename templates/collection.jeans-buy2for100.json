@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "0efce7b4-4044-4728-8e57-32a92ffc36db": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "79138e6f-e9c9-450b-b348-bf321cce3534": {
+      "type": "collection-list",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "SHOP BY STYLE",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "ripped-jeans",
+          "flare-jeans",
+          "no-pocket-jeans",
+          "3d-pocket",
+          "butt-lifting-shorts"
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_8DJdVB": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_jeans2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/collections\/butt-lift-jeans-sale",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_jeans3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/butt-lifters-shorts",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/collections\/butt-lifters-shorts",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "679b31fe-b6d9-4411-995a-26e9dfb03667": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/promotion_collectionbanner_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "679b31fe-b6d9-4411-995a-26e9dfb03667"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 22,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "butt-lifters-shorts",
+          "colombian-jeans",
+          "butt-lifting-shorts",
+          "butt-lifting-leggings",
+          "shaping-bodysuit"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 125,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "166367231494317262": {
+      "type": "rich-text",
+      "blocks": {
+        "1fc06b12-e359-41a2-b694-099a6a7d4133": {
+          "type": "heading",
+          "settings": {
+            "text": "COLOMBIAN BUTT LIFT JEANS",
+            "size": "h4"
+          }
+        },
+        "16636723131a14a571-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We understand the importance of fashion, value, and confidence, which is why we have handpicked the best butt lift jeans for you. Our Colombian butt lift jeans are the ultimate fusionof style and comfort, and here’s the exciting part - you can now seize  two pairs for just $100! Don’t miss out on this incredible offer to boost your fashion and confidence game.<\/p><p>Experience the perfect blend of fashion-forward design and unbeatable savings. These women's butt lift jeans are not just a wardrobe staple; they are your secret weapon to achieve that enviable silhouette with ease. Crafted with precision and attention to detail, they enhance your natural curves while providing the support and comfort you deserve.<\/p><p>At Colombiana Boutique, we believe that confidence should be accessible to all, without compromising on quality or style. Indulge in fashion-forward designs, impeccable craftsmanship, and the transformative power of our butt lift jeans, all while enjoying substantial savings. This exceptional offer not only redefines your wardrobe but also ensures you're ready for any occasion with confidence and style.Don't miss this incredible opportunity to revamp your denim collection with our women’s butt lift jeans and exude confidence in every step you take. Elevate your style, celebrate your curves, and redefine your fashion quotient with Colombiana Boutique today!<\/p><p>Our collection of high waist women's butt lifting jeans are made for comfort and fashion in mind. You willl look great in any one of the styles we have on offer, including skinny or ripped for example (we have a huge variety to suit everyone), and our jeans will enhance your figure without sacrificing any comfort thanks to our enjoyable stretchy denim material. You can even go down a size sometimes!<\/p><p>Your features will be highlighted with Colombiana’s best stretchy denim material. Our levanta cola jeans are the perfect fit for your every occasion, either if you want them for a daily use or for your MUST-GO and look fabulous event, we enrich your wardrobe with a wide range of the perfect jeans. Get the waistline contour you desire by trying out our collection of high-rise two or three button jeans that will provide the ultimate compliment to your assets with our unique Colombian heart shape stitching and 3D pockets.<\/p><p>Whatever your reason for considering butt lifting clothing is, be it that you’re looking to create a curvier new figure or to enhance the one you already have, you can be sure of gaining an unrivalled sense of confidence and glamour in your choice of Colombiana jeans. While you’re at it, why not explore our other options like Colombian fajas that will complement your look? You are already perfect so why not buy the perfect jeans for you?<\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "1fc06b12-e359-41a2-b694-099a6a7d4133",
+        "16636723131a14a571-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "0efce7b4-4044-4728-8e57-32a92ffc36db",
+    "79138e6f-e9c9-450b-b348-bf321cce3534",
+    "spacer_8DJdVB",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "166367231494317262",
+    "166367228131c52c01"
+  ]
+}

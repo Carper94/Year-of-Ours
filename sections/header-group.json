@@ -1,0 +1,72 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "2f7893ee-7b84-4f15-911a-801b94ffa38e": {
+          "type": "text",
+          "settings": {
+            "icon": "lightning_bolt",
+            "text": "FREE SHIPPING OVER $75",
+            "link": ""
+          }
+        },
+        "ab49583f-4651-41e4-b3b3-e6380a5e5105": {
+          "type": "text",
+          "settings": {
+            "icon": "box",
+            "text": "FREE RETURNS & EXCHANGES",
+            "link": ""
+          }
+        },
+        "6ea6165e-d5b4-45a0-a5d6-c8dae835866a": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "carrot",
+            "text": "EASTER SALE • SAVE UP TO $50 OFF",
+            "link": "https:\/\/www.colombianaboutique.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "2f7893ee-7b84-4f15-911a-801b94ffa38e",
+        "ab49583f-4651-41e4-b3b3-e6380a5e5105",
+        "6ea6165e-d5b4-45a0-a5d6-c8dae835866a"
+      ],
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "sticky_bar": true,
+        "announcement_bar_layout": "marquee",
+        "direction": "left",
+        "speed": "20s"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "sticky_header": true,
+        "logo": "shopify:\/\/shop_images\/logo_CB_nobkg_black_2cf5d0e6-2ddc-4dc3-8bd8-d202da99dc5d.png",
+        "logo_height_range": 80,
+        "logo_height_range_mobile": 60,
+        "style": "style4",
+        "header_shadow": "header--shadow-none",
+        "menu": "main-menu",
+        "transparent_header": false,
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "mobile_secondary_menu": "",
+        "mobile_promo_heading": "Promotion heading",
+        "mobile_promo_link_label": "Shop",
+        "mobile_promo_link": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

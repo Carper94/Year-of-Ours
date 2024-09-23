@@ -1,0 +1,342 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "0efce7b4-4044-4728-8e57-32a92ffc36db": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "d6941692-9fdc-4b5a-9080-ed33bc98e8cd": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--14894634303524__d6941692-9fdc-4b5a-9080-ed33bc98e8cd-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Save 25% Off Select Fajas With Code: GOODBYE",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "3c8352b3-e134-4854-b572-a5ef2309e44a": {
+          "type": "text",
+          "settings": {
+            "text": "Save 25% Off Select Fajas With Code: GOODBYE",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14894634303524__d6941692-9fdc-4b5a-9080-ed33bc98e8cd-text-3",
+        "3c8352b3-e134-4854-b572-a5ef2309e44a"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 16,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#ee5578",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "79138e6f-e9c9-450b-b348-bf321cce3534": {
+      "type": "collection-list",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "SHOP BY SUPPORT LEVEL",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "support-stage-1-faja-smooth",
+          "support-stage-2-faja-shape",
+          "support-stage-3-faja-sculpt",
+          "support-stage-4-faja-ultra-sculpt"
+        ],
+        "image_ratio": "adapt",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_qHtCbx": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_clearance.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.colombianaboutique.com\/pages\/how-to-choose-the-right-support-level-of-shapewear",
+            "use_text_button": false,
+            "block_link": "https:\/\/www.colombianaboutique.com\/pages\/how-to-choose-the-right-support-level-of-shapewear",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "0f861715-71e4-44a2-a49d-0e8484d255da": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 10,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/BFCM2023_promobanner_signup.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "https:\/\/www.colombianaboutique.com\/pages\/bfcm2023earlyaccess",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_fajas2b_cb21b0e8-feec-4e1f-82af-0f65ea0e7a0e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/butt-lifters-shorts",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a22f33e9-c0ac-4190-8225-2300c7551882": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_scarygoodsale_61e5f108-fea6-4d00-8d53-399cf5c66978.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8",
+        "0f861715-71e4-44a2-a49d-0e8484d255da",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "a22f33e9-c0ac-4190-8225-2300c7551882"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 23,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "butt-lifters-shorts",
+          "colombian-jeans",
+          "butt-lifting-shorts",
+          "butt-lifting-leggings",
+          "shaping-bodysuit"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 125,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "67271c98-298f-4dad-b6ec-d905e923a125": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Talk about your brand",
+            "size": "h3"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-subheading-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-heading-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-text-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "166367231494317262": {
+      "type": "rich-text",
+      "blocks": {
+        "1fc06b12-e359-41a2-b694-099a6a7d4133": {
+          "type": "heading",
+          "settings": {
+            "text": "Fajas on Sale",
+            "size": "h3"
+          }
+        },
+        "16636723131a14a571-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prepare to be captivated by our hand-picked selection of fajas on sale, featuring renowned brands like Fajas MyD and MariaE fajas. Discover the perfect fusion of style, comfort, and affordability as you explore our range of full-body fajas and high compression fajas.<\/p><p>Our Faja Sale Collection is a treasure trove of savings without compromise. These are more than just fajas; they are meticulously crafted for  precision to transform your curves while providing all-day comfort. With a high compression faja, you have the tool to sculpt and shape your figure to perfection.<\/p><p>Whether you're looking to enhance your daily confidence or prepare for a special occasion, our Faja Sale Collection has you covered. We believe that empowerment comes from feeling your best, and our fajas are here to support you on your journey to self-assuredness.<\/p><p>Now is the time to seize the opportunity for both savings and transformation. Explore Colombiana Boutique's Faja Sale Collection today and experience the unparalleled combination of elegance and affordability. Elevate your style, celebrate your curves, and make every moment count with our exceptional fajas!<\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "1fc06b12-e359-41a2-b694-099a6a7d4133",
+        "16636723131a14a571-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "0efce7b4-4044-4728-8e57-32a92ffc36db",
+    "d6941692-9fdc-4b5a-9080-ed33bc98e8cd",
+    "79138e6f-e9c9-450b-b348-bf321cce3534",
+    "spacer_qHtCbx",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "67271c98-298f-4dad-b6ec-d905e923a125",
+    "166367231494317262",
+    "166367228131c52c01"
+  ]
+}

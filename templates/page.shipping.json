@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "16618629918566dc27": {
+      "type": "rich-text",
+      "blocks": {
+        "1661862991ee6f499c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "SHIPPING POLICY",
+            "size": "h2"
+          }
+        },
+        "1661862991ee6f499c-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Below you'll find answers to questions we get asked the most.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "1661862991ee6f499c-1",
+        "1661862991ee6f499c-2"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166186303682d7c655": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "5f34dba8-15e0-4aac-91f7-5a103657361d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I track my order?",
+            "open": false,
+            "content": "<p>There are two ways to track your Colombiana Boutique Package!<\/p><ol><li><strong>If you have an account <\/strong>with us and created your account at checkout, simply login to your account <a href=\"https:\/\/www.colombianaboutique.com\/account\/login\">here<\/a> and view your order History. Go to your most recent order, You will see if it is “Fulfilled” or “Unfulfilled”. If it is already fulfilled, you may click on order information and view your tracking number through here.<\/li><li><strong>Check your Email<\/strong> Go to the email you used to check out and search for “Colombiana Boutique” if your order has already been shipped, you should have received an email with the subject headline “A shipment from order (Your order number) is on the way” Simply click on this email and view your tracking number. If you do not see the shipping confirmation email, it is possible your order has not yet shipped.<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW LONG WILL IT TAKE TO SHIP MY ORDER?",
+            "open": false,
+            "content": "<p>All COLOMBIANABOUTIQUE.COM orders are processed Monday through Friday, excluding holidays. Orders placed on weekdays after 12:00 P.M. EST, or on weekends, or holidays will be processed the next business day.<\/p><p>Shipping times may vary due to availability of merchandise or address verification procedures. All Colombiana Boutique products are shipped from our network of warehouse in the United States. Shipping time varies from 1-5 business days depending on your region.<\/p>",
+            "page": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MY PACKAGE SAYS DELIVERED, BUT IT’S NOT HERE 🙁",
+            "open": false,
+            "content": "<p>Colombiana thrives for excellence, and sometimes working with third party shipping carriers may cause to have issues like these, therefore, if a package says delivered and it's not in your mailbox or at your door, please contact us at support@colombianaboutique.com to start a \"Investigation Process\" in which if your package is not found within 48 hours, we will ship a replacement completely free. Please have in mind that we do <strong>NOT <\/strong>issue refunds on lost packages in order to prevent false claims.<\/p><p>Please check your mailbox, sometimes USPS may squeeze our packages in mailboxes.<\/p><p>-----<\/p><p>Colombiana Boutique offers a shipping guarantee policy in the event that it is lost in transit, delivered but not received, stolen, or damaged. We put in maximum effort to insure your package is delivered to your door under any and all circumstances.<\/p><p><strong>OUR POLICY<\/strong><\/p><p>Colombiana Boutique will be liable for packages lost\/damaged. We will not issue any refund, only replacements of the exact package. If items in order are sold out, we will send out a replacement for item of equal or lesser value. We will ensure all matters are resolved within 5-10 business days. <\/p><p>YOUR ITEMS MAY BE <strong>ELIGIBLE FOR REPLACEMENT: <\/strong><\/p><ul><li>If your package is marked as delivered but not delivered after 72 business hours.<\/li><li>If your package arrives damaged<\/li><li>If you believe or have proof that your package has been stolen<\/li><li>If your package has been lost in transit or stuck in transit for over 72 business hours with no word from the carrier.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "7d54b7d6-9f80-4dbe-a475-a88e57b444f6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I initiate a claim?",
+            "open": false,
+            "content": "<p>We understand how frustrating it can be to be expecting a package, and an unforeseeable circumstance takes place. Don’t worry! You may begin a claim and request for a replacement package to be sent your way. In order to get your claim process started, please email us at support@colombianaboutique.com with subject headline: CLAIM + (Your ORDER #) and a representative will assist you in getting your replacement ASAP.<\/p>",
+            "page": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I THINK I MAY HAVE PUT THE WRONG ADDRESS. HOW CAN I GET MY PACKAGE NOW?",
+            "open": false,
+            "content": "<p>Please email us at support@colombianaboutique.com in order to change the address as soon as possible. Please have in mind that we only make minor changes to addresses in order to avoid \"Credit Card Fraud\" in the event that you need a complete address change, then we may need to cancel your order so you can place a new one.<\/p><p>In addition, please have in mind that in order to provide fast shipping services, we may not be able to do changes to your order if our \"Fulfillment Center\" has marked your order as \"Fulfilled\", in this case, we will need to wait until the package is returned to us.<\/p>",
+            "page": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHY ARE THE INTERNATIONAL SHIPPING COSTS SO HIGH?",
+            "open": false,
+            "content": "<p>Our prices are the same for all our customers all over the world, however, shipping prices tend to be slightly more expensive, depending on your region, than shipping within the United States. The other factor to consider is <strong>Duties and Taxes <\/strong>charged by your country when importing goods.<\/p><p>We may or may not include duties and taxes at check out. This will vary depending on where your order is shipping from. If you pay duties and taxes at check out, you do not have to worry about anything else and your package will be delivered at your location directly. However, if you do not pay duties and taxes at check out, please have in mind that you will be responsible to pay for them before receiving your package. <\/p><p>Please not that we are not responsible for \"rejected\" packages by the customer, therefore, if you request a refund, we will process the refund once we have received the package back from the carrier and only for the amount paid for products, but you will not be refunded for shipping costs. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "5f34dba8-15e0-4aac-91f7-5a103657361d",
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "7d54b7d6-9f80-4dbe-a475-a88e57b444f6",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "uppercase_heading": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "3eca4b48-dbc8-4d02-8b71-19fb62a18f96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Didn’t find what you were looking for?"
+          }
+        },
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Please contact us with any questions or problems.",
+            "size": "h2"
+          }
+        },
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call Customer Service: <strong>(201) 355-5193<\/strong> between Monday-Friday 10AM- 3PM<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-subheading-1",
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-heading-1",
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-text-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "16618629918566dc27",
+    "166186303682d7c655",
+    "faq",
+    "3eca4b48-dbc8-4d02-8b71-19fb62a18f96"
+  ]
+}

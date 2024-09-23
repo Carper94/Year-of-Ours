@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "0efce7b4-4044-4728-8e57-32a92ffc36db": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "79138e6f-e9c9-450b-b348-bf321cce3534": {
+      "type": "collection-list",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "SHOP BY SUPPORT LEVEL",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "support-stage-1-faja-smooth",
+          "support-stage-2-faja-shape",
+          "support-stage-3-faja-sculpt",
+          "support-stage-4-faja-ultra-sculpt"
+        ],
+        "image_ratio": "adapt",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_N9NWyp": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "0f861715-71e4-44a2-a49d-0e8484d255da": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/banner_3_april_collection_274927dd-ebb8-4d71-9aad-13f13d9a833f.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.colombianaboutique.com\/pages\/how-to-choose-the-right-support-level-of-shapewear",
+            "use_text_button": false,
+            "block_link": "https:\/\/www.colombianaboutique.com\/pages\/how-to-choose-the-right-support-level-of-shapewear",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_fajas2b_cb21b0e8-feec-4e1f-82af-0f65ea0e7a0e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/butt-lifters-shorts",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a22f33e9-c0ac-4190-8225-2300c7551882": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_scarygoodsale_61e5f108-fea6-4d00-8d53-399cf5c66978.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "0f861715-71e4-44a2-a49d-0e8484d255da",
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "a22f33e9-c0ac-4190-8225-2300c7551882"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 23,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "butt-lifters-shorts",
+          "colombian-jeans",
+          "butt-lifting-shorts",
+          "butt-lifting-leggings",
+          "shaping-bodysuit"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 125,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "5890061f-dc8f-4c0b-a181-801d025bb786": {
+      "type": "custom-description",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "67271c98-298f-4dad-b6ec-d905e923a125": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Talk about your brand",
+            "size": "h3"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-subheading-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-heading-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-text-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "166367231494317262": {
+      "type": "rich-text",
+      "blocks": {
+        "1fc06b12-e359-41a2-b694-099a6a7d4133": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "COLOMBIAN FAJAS",
+            "size": "h4"
+          }
+        },
+        "16636723131a14a571-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>In an ideal world, we would all have hourglass figures, but sometimes Mother Nature needs a little help. Colombian shapewear is your secret to achieving a breathtaking silhouette that accentuates your best features. <\/p><p>Explore Colombian fajas at Colombiana Boutique, your one-stop destination for top-quality high compression faja body shapers that blend comfort and style seamlessly. Our Colombian fajas lead the shapewear fashion revolution, empowering women to embrace daily confidence and comfort. From our exclusive Nicolette Shapewear Colombian fajas collection to trusted brands like Fajas MariaE, Fajas MyD, or Fajas Salome, we cater to your unique preferences.<\/p><p>As trailblazers in the world of faja shapewear, Colombiana launched its inaugural store in 2012 and quickly gained worldwide recognition. Our Colombian fajas are beloved by customers worldwide, known for offering the best Colombian fajas, swift shipping, and top-notch customer service.<\/p><p>Crafted from the finest fabrics, our products adhere to rigorous quality control and guidelines, ensuring durability and comfort. With a diverse product lineup, we're dedicated to helping you find the perfect fitting faja shapewear for that coveted hourglass silhouette.<\/p><p>Our remarkable shapewear collection offers various sizes and styles, ensuring you look stunning on any occasion. It's time to radiate confidence and look stunning in everything you wear.<\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "1fc06b12-e359-41a2-b694-099a6a7d4133",
+        "16636723131a14a571-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "0efce7b4-4044-4728-8e57-32a92ffc36db",
+    "79138e6f-e9c9-450b-b348-bf321cce3534",
+    "spacer_N9NWyp",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "5890061f-dc8f-4c0b-a181-801d025bb786",
+    "67271c98-298f-4dad-b6ec-d905e923a125",
+    "166367231494317262",
+    "166367228131c52c01"
+  ]
+}

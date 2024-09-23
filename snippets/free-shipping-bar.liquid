@@ -1,0 +1,80 @@
+{% assign totalWithoutZero = cart.total_price %}
+{% assign priceBase = settings.free_shipping_amount | times: 100.0 %}
+{% assign porcentaje = totalWithoutZero | divided_by: priceBase | times: 100 | round  %}
+
+{% if porcentaje > 100 %}
+  {% assign porcentaje = 100 %}
+{% endif %}
+
+<style>
+  body[data-free-shipping-abtest="A"] {
+    .free_shipping {
+      display: none;
+    }
+  }
+  body[data-free-shipping-abtest="B"] {
+    .cart-drawer .side-panel-inner {
+      grid-template-rows: auto 4.8rem 1fr auto;
+    }
+
+    .free_shipping {
+      border-bottom: 1px solid #E2E2E2;
+      background-color: #ffffff;
+      padding: 13px 30px;
+    }
+  
+    .free_shipping__title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      text-align: center;
+    }
+  
+    .free_shipping__bar {
+      height: 6px;
+      background-color: #D9D9D9;
+      border-radius: 10px;
+      width: 100%;
+      position: relative;
+    }
+  
+    .free_shipping__container {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .free_shipping__container svg {
+      width: 25px;
+      height: 19px;
+    }
+    
+    .percent::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 6px;
+      border-radius: 10px;
+      background-color: #EA5578;
+      width: {{porcentaje}}%;
+    }
+  }
+</style>
+<div class="free_shipping">
+  <p class="free_shipping__title">
+    {% if porcentaje >= 100 %}
+        {{ settings.free_shipping_text_full }}
+      {% else %}
+        {{ settings.free_shipping_text_nofull }} ${{ settings.free_shipping_amount }}+
+    {% endif %}
+  </p>
+  <div class="free_shipping__container">
+    <div class="free_shipping__bar percent"></div>
+    {% if porcentaje >= 100 %}
+        {% render 'svg-icons', svg-icons: 'free-shipping-check' %}
+      {% else %}
+        {% render 'svg-icons', svg-icons: 'free-shipping-truck' %}
+    {% endif %}
+  </div>
+</div>

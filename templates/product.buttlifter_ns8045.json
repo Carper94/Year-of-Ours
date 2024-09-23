@@ -1,0 +1,903 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "16b27c07-cb7a-4339-9f59-ce099fbbbaff": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "uppercase": false,
+            "show_products_rating": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true,
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": "size-chart-butt-lifters"
+          }
+        },
+        "844689b0-2568-45cf-96e2-3692cf367624": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "low",
+            "show_inventory_count": "always",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": true,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "29a834d1-58bd-4b4f-a266-23f4a1fb9618": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/returns_44a4d4e1-3181-426c-8b9b-370a96c8f095.jpg",
+            "position": "text-left"
+          }
+        },
+        "4ec5df79-acdf-468c-a6f9-43b4bb657e2e": {
+          "type": "iconography",
+          "settings": {
+            "value_1_title": "Booty Booster",
+            "value_1_image": "shopify:\/\/shop_images\/Booty_Booster.png",
+            "value_2_title": "No Roll Up or Down",
+            "value_2_image": "shopify:\/\/shop_images\/No-Roll_Up_or_Down.png",
+            "value_3_title": "Tummy Control",
+            "value_3_image": "shopify:\/\/shop_images\/Tummy_Control.png",
+            "value_4_title": "Made in Colombia",
+            "value_4_image": "shopify:\/\/shop_images\/Made_In_Colombia.png"
+          }
+        },
+        "4e0a9fd2-6ba6-49c6-8032-7af97902fd70": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whypeoplelove_buttlifters.jpg",
+            "position": "text-left"
+          }
+        },
+        "b4dfb758-e24d-49de-a1f0-4c05ba5c83aa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizegraph_fajas_3.jpg",
+            "position": "text-left"
+          }
+        },
+        "57fa41d6-e671-4cd6-ac14-a4b7cb1442cb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizegraph_buttlifters_4_3645325f-4c7a-41a0-81cc-2c908fa82a4e.jpg",
+            "position": "text-left"
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "",
+            "side_panel_1_icon": "heart",
+            "side_panel_1_content": "",
+            "side_panel_1_page": "materials",
+            "side_panel_2_label": "Shipping & Returns",
+            "side_panel_2_icon": "box",
+            "side_panel_2_content": "<p><strong>SHIPPING<\/strong><\/p><ul><li>Same day processing for all orders placed before 12PM EST. Mon- Fri.<\/li><li>Fast Standard Shipping (1-5 business days)<\/li><\/ul><p>For more information <strong>shipping<\/strong> questions, <a href=\"https:\/\/www.colombianaboutique.com\/policies\/shipping-policy\" target=\"_blank\" title=\"Colombiana Shipping & Delivery Policy\"><strong>CLICK HERE<\/strong><\/a>.<\/p><p><strong>RETURNS<\/strong><\/p><ul><li>Free returns and exchanges with our \"Return Bar\" network<\/li><li>Hassle free 30 day return policy<\/li><\/ul><p>For more information <strong>returns <\/strong>questions, <a href=\"https:\/\/www.colombianaboutique.com\/policies\/shipping-policy\" target=\"_blank\" title=\"Colombiana Refund Policy\"><strong>CLICK HERE<\/strong><\/a>.<\/p>",
+            "side_panel_2_page": "shipping",
+            "side_panel_3_label": "Care Guide",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_content": "<ul><li>Hand wash in cold water with mild detergent.<\/li><li>Do not bleach.<\/li><li>Do not tumble dry.<\/li><li>Do not iron.<\/li><li>Hang dry or lay flat to dry.<\/li><\/ul><p>Following these care instructions will help your shapewear last longer and look its best.<\/p><p>Here are some additional tips for caring for your shapewear:<\/p><ul><li>Wash it after each wear.<\/li><li>Store it in a cool, dry place when not in use.<\/li><\/ul><p>By following these tips, you can keep your shapewear looking and feeling its best for years to come.<\/p>",
+            "side_panel_3_page": "care-guide"
+          }
+        },
+        "b761a544-8327-48a6-96c7-2631ac0e282b": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 3
+          }
+        }
+      },
+      "block_order": [
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "16b27c07-cb7a-4339-9f59-ce099fbbbaff",
+        "title",
+        "variant_picker",
+        "844689b0-2568-45cf-96e2-3692cf367624",
+        "buy_buttons",
+        "29a834d1-58bd-4b4f-a266-23f4a1fb9618",
+        "4ec5df79-acdf-468c-a6f9-43b4bb657e2e",
+        "4e0a9fd2-6ba6-49c6-8032-7af97902fd70",
+        "b4dfb758-e24d-49de-a1f0-4c05ba5c83aa",
+        "57fa41d6-e671-4cd6-ac14-a4b7cb1442cb",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "b761a544-8327-48a6-96c7-2631ac0e282b"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_sticky_info": false,
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": false,
+        "media_layout": "grid",
+        "display_slider_pagination": true,
+        "media_aspect_ratio": "adapt",
+        "display_captions": false,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "16623877721f33fb14": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 40,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "40b97faa-5fb9-4dfe-b7cc-0a47039d48b9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14819557900324__40b97faa-5fb9-4dfe-b7cc-0a47039d48b9-1689352188d3f9f54d-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NS8045_c0db516a-67b6-4ff1-b3ae-6e1f55427231.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/NS8045_mobile.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "template--14819557900324__40b97faa-5fb9-4dfe-b7cc-0a47039d48b9-1689352188d3f9f54d-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1-xlarge",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "Shop Now",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "template--14819557900324__40b97faa-5fb9-4dfe-b7cc-0a47039d48b9-1689352188d3f9f54d-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1-xlarge",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0,0,0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "Shop Now",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557900324__40b97faa-5fb9-4dfe-b7cc-0a47039d48b9-1689352188d3f9f54d-0",
+        "template--14819557900324__40b97faa-5fb9-4dfe-b7cc-0a47039d48b9-1689352188d3f9f54d-1",
+        "template--14819557900324__40b97faa-5fb9-4dfe-b7cc-0a47039d48b9-1689352188d3f9f54d-2"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1662552569cce2536d": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 40,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": true
+      }
+    },
+    "775ba0bc-5725-4780-9f7c-e89c55b6796d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14829603061796__775ba0bc-5725-4780-9f7c-e89c55b6796d-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ns001.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Want a more natural boost?",
+            "text": "<p>If you are looking for a more natural booty boost, try NS001. It has the same great level 3 support to sculpt your curves but with a level 1 natural butt lift.<\/p>",
+            "link_label": "SHOP NS001",
+            "link": "shopify:\/\/products\/high-waist-powernet-shapewear-bottom"
+          }
+        },
+        "template--14829603061796__775ba0bc-5725-4780-9f7c-e89c55b6796d-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ns70160.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Want less compression?",
+            "text": "<p>Are you new to butt lifters or just looking for a lift with comfort all day? Try NS70160. It comes with our level 1 smoothing support that is perfect for everyday wear but padded to give you that boost you are looking for.<\/p>",
+            "link_label": "SHOP NS0160",
+            "link": "shopify:\/\/products\/j-lo-padded-panty-butt-lifter-70160"
+          }
+        },
+        "template--14829603061796__775ba0bc-5725-4780-9f7c-e89c55b6796d-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8043.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Want less boost?",
+            "text": "<p>Is padded too much for you but you still want to maximize your boost? Try 8043. It has our level 3 push-up lift that is perfect for lifting your booty without added parts.<\/p>",
+            "link_label": "SHOP 8043",
+            "link": "shopify:\/\/products\/high-rise-tummy-control-butt-lifter-w-holes-8043"
+          }
+        }
+      },
+      "block_order": [
+        "template--14829603061796__775ba0bc-5725-4780-9f7c-e89c55b6796d-column-1",
+        "template--14829603061796__775ba0bc-5725-4780-9f7c-e89c55b6796d-column-2",
+        "template--14829603061796__775ba0bc-5725-4780-9f7c-e89c55b6796d-column-3"
+      ],
+      "settings": {
+        "heading": "Looking For Something Else?",
+        "heading_left": false,
+        "description": "<p>Here are some suggestions based on what you might be looking for.<\/p>",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4074d8eb-b087-4bad-b6bb-025972830eba": {
+      "type": "testimonials",
+      "blocks": {
+        "template--14819557900324__4074d8eb-b087-4bad-b6bb-025972830eba-1689258840b23deae4-0": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Perfect and nice fit.",
+            "author": "Angela S."
+          }
+        },
+        "template--14819557900324__4074d8eb-b087-4bad-b6bb-025972830eba-1689258840b23deae4-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "I ordered one for myself earlier last year and just recently ordered this one as a gift for my sister. She loves it and it worked perfect for her.",
+            "author": "Lisa T."
+          }
+        },
+        "template--14819557900324__4074d8eb-b087-4bad-b6bb-025972830eba-1689258840b23deae4-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "It fits perfect and is snug in all the right areas.",
+            "author": "Fay M."
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557900324__4074d8eb-b087-4bad-b6bb-025972830eba-1689258840b23deae4-0",
+        "template--14819557900324__4074d8eb-b087-4bad-b6bb-025972830eba-1689258840b23deae4-1",
+        "template--14819557900324__4074d8eb-b087-4bad-b6bb-025972830eba-1689258840b23deae4-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "text_size": "medium",
+        "pagination": "dots",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#fff0f0",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d6660c21-346b-4b5c-a33c-b4090bdea0ec": {
+      "type": "before-after-image",
+      "blocks": {
+        "template--14819557900324__d6660c21-346b-4b5c-a33c-b4090bdea0ec-168925904619b7a920-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_1a.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/before_after_mobile_1a.jpg",
+            "title": "Regular",
+            "heading_size": "h3",
+            "heading_position": "top",
+            "text_color": "#151515",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14819557900324__d6660c21-346b-4b5c-a33c-b4090bdea0ec-168925904619b7a920-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_1b.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/before_after_mobile_1b.jpg",
+            "title": "Colombiana",
+            "heading_size": "h3",
+            "heading_position": "top",
+            "text_color": "#151515",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557900324__d6660c21-346b-4b5c-a33c-b4090bdea0ec-168925904619b7a920-0",
+        "template--14819557900324__d6660c21-346b-4b5c-a33c-b4090bdea0ec-168925904619b7a920-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Before & After",
+        "heading_left": false,
+        "description": "<p>See for yourself the difference our jeans can do for your booty.<\/p>",
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "initial_position": 50,
+        "line_color": "#ffffff",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "a1d3cbbe-5f34-4f4a-87e2-e6ebd74aabf3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14825964896292__a1d3cbbe-5f34-4f4a-87e2-e6ebd74aabf3-1689356564774cabec-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Support Level 1 - Smooth",
+            "heading_size": "h3"
+          }
+        },
+        "template--14825964896292__a1d3cbbe-5f34-4f4a-87e2-e6ebd74aabf3-1689356564774cabec-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Perfect for all day, gentle support that smooth your curves and will leave your clothes fitting better. Great for beginners or anyone who wants maximum comfort for all-day wear.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14825964896292__a1d3cbbe-5f34-4f4a-87e2-e6ebd74aabf3-1689356564774cabec-1",
+        "template--14825964896292__a1d3cbbe-5f34-4f4a-87e2-e6ebd74aabf3-1689356564774cabec-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/imagewithtext_8052.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "section_width": "grid",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "dcae2751-2a77-4daa-b4c7-e0e189c2ca06": {
+      "type": "image-with-text",
+      "blocks": {
+        "70c111ef-0ad7-44fb-bfd3-4a93cfaaebad": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Support level 1"
+          }
+        },
+        "75159330-ad38-466a-ac49-d6b2d85131f5": {
+          "type": "heading",
+          "settings": {
+            "text": "Smooth",
+            "heading_size": "h3"
+          }
+        },
+        "9f69dda2-f400-438a-9c57-27dd8fa8ff14": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Perfect for all day, gentle support that smooth your curves and will leave your clothes fitting better. Great for beginners or anyone who wants maximum comfort for all-day wear.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "70c111ef-0ad7-44fb-bfd3-4a93cfaaebad",
+        "75159330-ad38-466a-ac49-d6b2d85131f5",
+        "9f69dda2-f400-438a-9c57-27dd8fa8ff14"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/imagewithtext_8052.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "section_width": "grid",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "166366868377cd57e4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "b9349bb5-2620-4155-ac69-dea56c8ebbe1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "SUBHEADING"
+          }
+        },
+        "16636686835e8f94d4-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "IMAGE WITH TEXT OVERLAY",
+            "heading_size": "h1"
+          }
+        },
+        "83c3ef40-7ca5-4f79-8e21-16fcbebbc991": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "c6ec8484-f95c-4682-a344-ab918c10cab4": {
+          "type": "space",
+          "disabled": true,
+          "settings": {
+            "height": 17
+          }
+        },
+        "16636686835e8f94d4-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/midi",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "b9349bb5-2620-4155-ac69-dea56c8ebbe1",
+        "16636686835e8f94d4-1",
+        "83c3ef40-7ca5-4f79-8e21-16fcbebbc991",
+        "c6ec8484-f95c-4682-a344-ab918c10cab4",
+        "16636686835e8f94d4-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/checklist2_1a.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/checklist2_mobile_1d.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "28e07946-7492-42a8-ab59-ac6d30912c6a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14819557900324__28e07946-7492-42a8-ab59-ac6d30912c6a-168925954948c18128-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow_1b.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "template--14819557900324__28e07946-7492-42a8-ab59-ac6d30912c6a-168925954948c18128-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow_1a_12b472d5-e7a1-4845-ad50-88aa64010ada.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "template--14819557900324__28e07946-7492-42a8-ab59-ac6d30912c6a-168925954948c18128-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1-xlarge",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "Shop Now",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557900324__28e07946-7492-42a8-ab59-ac6d30912c6a-168925954948c18128-2",
+        "template--14819557900324__28e07946-7492-42a8-ab59-ac6d30912c6a-168925954948c18128-0",
+        "template--14819557900324__28e07946-7492-42a8-ab59-ac6d30912c6a-168925954948c18128-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 4,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166237435211863a49": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-450",
+        "full_width": true,
+        "subheading": "ADD A SUBHEADING",
+        "heading": "BACKGROUND VIDEO",
+        "text": "",
+        "lightbox_button": true,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1663667029efc274af": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1663667029f86d6497-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What payment methods can I use?",
+            "open": false,
+            "content": "<p>We offer 35 different payment methods including major providers like Mastercard, Visa, PayPal, American Express and Diners as well as many different local payment methods including Klarna, iDEAL, AliPay, Sofort, giropay, and many more.<\/p>",
+            "page": ""
+          }
+        },
+        "1663667029f86d6497-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I purchase items with another currency?",
+            "open": false,
+            "content": "<p>Yes, you may select a currency based on your personal preference. When you select your country in the country selector on the upper right of the website or are taken directly to your country’s version of the website, you will see prices listed in the regional currency.<\/p>",
+            "page": ""
+          }
+        },
+        "1663667029f86d6497-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I make changes to my order after it’s been placed?",
+            "open": false,
+            "content": "<p>We do everything we can to fulfill orders quickly and unfortunately cannot make updates after an order has been placed. These changes include removing or adding products and\/or changing the delivery address. If a mistake has been made with your order information, it’s quickest to create a new order with the correct information and then let our Customer Service.<\/p>",
+            "page": ""
+          }
+        },
+        "1663667029f86d6497-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer e-gift cards for international customers?",
+            "open": false,
+            "content": "<p>E-gift cards are only available to customers shipping within the U.S.<\/p>",
+            "page": ""
+          }
+        },
+        "68288bd2-3db2-455d-a841-5aa19d752abb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Do I Set Up A Subscription Order?",
+            "open": false,
+            "content": "<p>We will deliver products to you as soon as reasonably possible. Orders are usually dispatched between 1-3 days from the date of the order being placed. Please contact us our customer service team if your delivery has not been received within the dates described.<\/p>",
+            "page": ""
+          }
+        },
+        "de9966d6-0cd0-4b0f-9810-aa062aff88ce": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Return My Items?",
+            "open": false,
+            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663667029f86d6497-0",
+        "1663667029f86d6497-1",
+        "1663667029f86d6497-2",
+        "1663667029f86d6497-3",
+        "68288bd2-3db2-455d-a841-5aa19d752abb",
+        "de9966d6-0cd0-4b0f-9810-aa062aff88ce"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "F.A.Q.",
+        "description": "<p>They appreciate cut and details, things that aren't so obvious. <\/p>",
+        "uppercase_heading": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16625458859c68803a": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You Will Also Love",
+        "heading_left": false,
+        "description": "<p>Combine your style with these products<\/p>",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "001c2e57-31a5-4f86-afc6-2e9e81d9292e": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14819557900324__001c2e57-31a5-4f86-afc6-2e9e81d9292e-16892585079095db85-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "heading": "FREE SHIPPING on orders over $150",
+            "text": ""
+          }
+        },
+        "template--14819557900324__001c2e57-31a5-4f86-afc6-2e9e81d9292e-16892585079095db85-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "Free Exchanges",
+            "text": ""
+          }
+        },
+        "template--14819557900324__001c2e57-31a5-4f86-afc6-2e9e81d9292e-16892585079095db85-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "lock",
+            "heading": "Secure Checkout",
+            "text": ""
+          }
+        },
+        "2c069740-983a-413d-b2d1-4e66e90c1768": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "heading": "Interest free payments available",
+            "text": "<p><a href=\"\/pages\/shop-now-pay-later-payment\" target=\"_blank\" title=\"Payment & Installments\"><em>learn more<\/em><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557900324__001c2e57-31a5-4f86-afc6-2e9e81d9292e-16892585079095db85-0",
+        "template--14819557900324__001c2e57-31a5-4f86-afc6-2e9e81d9292e-16892585079095db85-1",
+        "template--14819557900324__001c2e57-31a5-4f86-afc6-2e9e81d9292e-16892585079095db85-2",
+        "2c069740-983a-413d-b2d1-4e66e90c1768"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 15,
+            "hide_thumbnails": false,
+            "maxwidth": 880
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "16623877721f33fb14",
+    "40b97faa-5fb9-4dfe-b7cc-0a47039d48b9",
+    "1662552569cce2536d",
+    "775ba0bc-5725-4780-9f7c-e89c55b6796d",
+    "4074d8eb-b087-4bad-b6bb-025972830eba",
+    "d6660c21-346b-4b5c-a33c-b4090bdea0ec",
+    "a1d3cbbe-5f34-4f4a-87e2-e6ebd74aabf3",
+    "dcae2751-2a77-4daa-b4c7-e0e189c2ca06",
+    "166366868377cd57e4",
+    "28e07946-7492-42a8-ab59-ac6d30912c6a",
+    "166237435211863a49",
+    "1663667029efc274af",
+    "16625458859c68803a",
+    "product-recommendations",
+    "001c2e57-31a5-4f86-afc6-2e9e81d9292e",
+    "loox-product-reviews-app-section"
+  ]
+}

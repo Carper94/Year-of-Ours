@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0"
+    >
+    <meta name="referrer" content="origin">
+
+    <title>{{ page_title }}</title>
+
+    {{ content_for_header }}
+
+    {{ checkout_stylesheets }}
+    {{ checkout_scripts }}
+
+    {% render 'shogun-head' %}
+    {{ 'checkout.css' | asset_url | stylesheet_tag }}
+  </head>
+  <body>
+    {{ skip_to_content_link }}
+
+    <header class="banner" data-header role="banner">
+      <div class="wrap">
+        {{ content_for_logo }}
+      </div>
+    </header>
+
+    {{ order_summary_toggle }}
+    <div class="content" data-content>
+      <div class="wrap">
+        <div class="main">
+          <header class="main__header" role="banner">
+            {{ content_for_logo }}
+            {{ breadcrumb }}
+            {{ alternative_payment_methods }}
+          </header>
+          <main class="main__content" role="main">
+            {{ content_for_layout }}
+          </main>
+          <footer class="main__footer" role="contentinfo">
+            {{ content_for_footer }}
+          </footer>
+        </div>
+        <aside class="sidebar" role="complementary">
+          <div class="sidebar__header">
+            {{ content_for_logo }}
+          </div>
+          <div class="sidebar__content">
+            {{ content_for_order_summary }}
+            <div class="upsell__logos">
+              <div class="logos--container">
+                <div class="upsell--item">
+                  <div class="item--img">
+                    <img src="https://cdn.shopify.com/s/files/1/0982/0194/files/icons8-truck-100_1.png?v=1706629512" alt="" srcset="">
+                  </div>
+                  <div class="item--info">
+                    <h4>Free Shipping</h4>
+                    <p>On orders over $75</p>
+                  </div>
+                </div>
+                <div class="upsell--item">
+                  <div class="item--img">
+                    <img src="https://cdn.shopify.com/s/files/1/0982/0194/files/3.png?v=1703192639" alt="" srcset="">
+                  </div>
+                  <div class="item--info">
+                    <h4>Shop Now. Pay Later.</h4>
+                    <p>AfterPay & ShopPay</p>
+                  </div>
+                </div>
+                <div class="upsell--item">
+                  <div class="item--img">
+                    <img src="https://cdn.shopify.com/s/files/1/0982/0194/files/4.png?v=1703192669" alt="" srcset="">
+                  </div>
+                  <div class="item--info">
+                    <h4>100% Made in Colombia</h4>
+                    <p>Handmade & genuine</p>
+                  </div>
+                </div>
+                <div class="upsell--item">
+                  <div class="item--img">
+                    <img
+                      src="https://cdn.shopify.com/s/files/1/0982/0194/files/Untitled-1.png?v=1703192703"
+                      alt=""
+                      srcset=""
+                    >
+                  </div>
+                  <div class="item--info">
+                    <h4>30 Day Returns</h4>
+                    <p>100% satisfaction</p>
+                  </div>
+                </div>
+              </div>
+              <div class="upsell__reviews">
+                <div class="swiper-wrapper">
+                  <div class="upsell__reviews-slide swiper-slide" data-swiper-autoplay="5000">
+                    <div class="reviews--img">
+                      <img
+                        src="https://cdn.shopify.com/s/files/1/0982/0194/files/Frame_56.jpg?v=1706632722"
+                        alt="reviews product img"
+                        srcset=""
+                      >
+                    </div>
+                    <div class="reviews--content">
+                      <div class="stars--reviews">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="74" height="14" viewBox="0 0 74 14" fill="none">
+                          <path d="M7 1.14665L8.50742 4.5284L8.61704 4.77433L8.88481 4.8026L12.5669 5.19121L9.81645 7.66987L9.61643 7.85013L9.6723 8.11353L10.4405 11.7355L7.23324 9.8856L7 9.75108L6.76676 9.8856L3.55949 11.7355L4.3277 8.11353L4.38357 7.85013L4.18355 7.66987L1.43313 5.19121L5.11519 4.8026L5.38296 4.77433L5.49258 4.5284L7 1.14665Z" fill="#EA5578" stroke="#EA5578" stroke-width="0.933679"/>
+                          <path d="M22 1.14665L23.5074 4.5284L23.617 4.77433L23.8848 4.8026L27.5669 5.19121L24.8164 7.66987L24.6164 7.85013L24.6723 8.11353L25.4405 11.7355L22.2332 9.8856L22 9.75108L21.7668 9.8856L18.5595 11.7355L19.3277 8.11353L19.3836 7.85013L19.1836 7.66987L16.4331 5.19121L20.1152 4.8026L20.383 4.77433L20.4926 4.5284L22 1.14665Z" fill="#EA5578" stroke="#EA5578" stroke-width="0.933679"/>
+                          <path d="M37 1.14665L38.5074 4.5284L38.617 4.77433L38.8848 4.8026L42.5669 5.19121L39.8164 7.66987L39.6164 7.85013L39.6723 8.11353L40.4405 11.7355L37.2332 9.8856L37 9.75108L36.7668 9.8856L33.5595 11.7355L34.3277 8.11353L34.3836 7.85013L34.1836 7.66987L31.4331 5.19121L35.1152 4.8026L35.383 4.77433L35.4926 4.5284L37 1.14665Z" fill="#EA5578" stroke="#EA5578" stroke-width="0.933679"/>
+                          <path d="M52 1.14665L53.5074 4.5284L53.617 4.77433L53.8848 4.8026L57.5669 5.19121L54.8164 7.66987L54.6164 7.85013L54.6723 8.11353L55.4405 11.7355L52.2332 9.8856L52 9.75108L51.7668 9.8856L48.5595 11.7355L49.3277 8.11353L49.3836 7.85013L49.1836 7.66987L46.4331 5.19121L50.1152 4.8026L50.383 4.77433L50.4926 4.5284L52 1.14665Z" fill="#EA5578" stroke="#EA5578" stroke-width="0.933679"/>
+                          <path d="M67 1.14665L68.5074 4.5284L68.617 4.77433L68.8848 4.8026L72.5669 5.19121L69.8164 7.66987L69.6164 7.85013L69.6723 8.11353L70.4405 11.7355L67.2332 9.8856L67 9.75108L66.7668 9.8856L63.5595 11.7355L64.3277 8.11353L64.3836 7.85013L64.1836 7.66987L61.4331 5.19121L65.1152 4.8026L65.383 4.77433L65.4926 4.5284L67 1.14665Z" fill="#EA5578" stroke="#EA5578" stroke-width="0.933679"/>
+                        </svg>
+                        <p class="date--reviews"> 08/29/2023</p>
+                      </div>
+                      <p>
+                        "The best thing I’ve ever ordered for myself that actually works!!! Gave me my confidence back when I get dressed now! AND ITS COMFORTABLE! I can breathe with no problems!!!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    {{ tracking_code }}
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        
+        const upsellItems = document.querySelector('.upsell__logos');
+        const orderSummary = document.querySelector('.order-summary__sections');
+        const mobileStep = document.querySelector('nav[aria-label="Breadcrumb"]');
+
+        function insertAfter(newNode, existingNode) {
+          existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+        }
+
+        if (window.screen.width <= 999) {
+          insertAfter(upsellItems, mobileStep.lastElementChild);
+        } else {
+          orderSummary.appendChild(upsellItems);
+        }
+      });
+    </script>
+    <script>
+      window.Shopify = window.Shopify || {theme: {id: {{ theme.id }}, role: '{{ theme.role }}' } };
+      window._template = {
+          directory: "{{ template.directory }}",
+          name: "{{ template.name }}",
+          suffix: "{{ template.suffix }}"
+      }
+    </script> 
+    <script src="https://cdn.intelligems.io/271d1e3b6643.js"></script>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "16618629918566dc27": {
+      "type": "rich-text",
+      "blocks": {
+        "1661862991ee6f499c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "F.A.Q.",
+            "size": "h2"
+          }
+        },
+        "1661862991ee6f499c-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Below you'll find answers to questions we get asked the most.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "1661862991ee6f499c-1",
+        "1661862991ee6f499c-2"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166186303682d7c655": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW CAN I RETURN\/EXCHANGE MY ITEM?",
+            "open": false,
+            "content": "<p>To Begin the Exchange, Returns Process Click <a href=\"https:\/\/colombiana-boutique.happyreturns.com\/\">Here<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW CAN I CHANGE OR CANCEL MY ORDER?",
+            "open": false,
+            "content": "<p>If you’d like to cancel or change your order, please email support@colombianaboutique.com as soon as possible. We will try our best to change or cancel your order, but please note that our order-fulfillment and shipping systems are designed to get orders on their way quickly and efficiently. Therefore, we are unable to change or cancel an order once it has entered the shipping process. If you would still like to return\/exchange your item once it is received, please see above for terms of eligibility.<\/p>",
+            "page": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHERE ARE YOUR OFFICES LOCATED?",
+            "open": false,
+            "content": "<p>Our office is located at 6712 Palisade Ave., Guttenberg, NJ 07093 USA.<\/p>",
+            "page": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DO YOU SHIP OVERNIGHT?",
+            "open": false,
+            "content": "<p>Unfortunately at the moment we only offer Standard U.S Shipping (2-7 Business Days) for $8.00 under $150 and free over $1<\/p>",
+            "page": ""
+          }
+        },
+        "5f34dba8-15e0-4aac-91f7-5a103657361d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DO YOU HAVE PAYMENT PLANS AVAILABLE?",
+            "open": false,
+            "content": "<p>Yes, simply choose Afterpay or Shop Pay at checkout for 4 payments over the course of two months. (Bi-Weekly) For more information on Afterpay,<a href=\"https:\/\/www.colombianaboutique.com\/pages\/shop-now-pay-later-with-afterpay\"> click here<\/a>. You may also choose to pay in 4 installments using Shop Pay, or Paypal.<\/p><p>Rates from 0% APR or 10-36% APR. Payment options through Shop Pay Installments are subject to an eligibility check and are provided by these lending partners: <a href=\"http:\/\/affirm.com\/lenders\">affirm.com\/lenders<\/a>. Options depend on your purchase amount, and a down payment may be required. State notices to consumers <a href=\"http:\/\/affirm.com\/licenses\">affirm.com\/licenses<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "fa2985e2-4983-462b-80c8-596d4ae47540": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT ARE YOUR HOURS OF OPERATION?",
+            "open": false,
+            "content": "<p>Our hours of operation are between 10AM – 4PM Monday through Friday, excluding U.S holidays.<\/p>",
+            "page": ""
+          }
+        },
+        "7d54b7d6-9f80-4dbe-a475-a88e57b444f6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DO YOU COVER CUSTOM\/CLEARANCE FEES?",
+            "open": false,
+            "content": "<p>Often times, Customs vary per country, and your local postage does have the right to charge their own clearance fees. Colombiana is not responsible for paying Customs charges, this charge must be paid for by the receiver of the parcel. Colombiana is only responsible for sending the garment(s) to your Country, with a correct postage label and customs declaration.  In the event that the customer refuses to pay the charge and the parcel gets sent back to us, we are not liable for paying shipping costs to resend the parcel back to the customer.   Customer must either pay shipping costs again, or receive a refund for their items with shipping costs deducted. <\/p>",
+            "page": ""
+          }
+        },
+        "fcf037c5-a5fb-4056-8307-53564c6f1263": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT DO I DO IF MY ITEM IS DEFECTIVE\/DAMAGED WHEN I RECEIVE IT?",
+            "open": false,
+            "content": "<p>In the unlikely event that you receive the wrong item or a defective\/damaged item, you can return or exchange your item. You will be reimbursed in full for the initial shipping costs on defective\/damaged items, and if you choose to exchange the defective\/damaged items, your new items will be shipped to you at no cost.<\/p>",
+            "page": ""
+          }
+        },
+        "ff668a47-8fc3-4cf2-985c-d5d0b7541f5e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHY IS MY ORDER DELAYED? (MEDIUM\/HIGH RISK ORDERS) ",
+            "open": false,
+            "content": "<p>If you have placed an order and still have not received any shipping confirmation after two (business) days it is possible your order has been flagged as Medium\/High Risk. Please be on the lookout for an email from us to confirm your Identity or address. once you are Verified your order will be on it’s way to you ASAP!<\/p><p>A High Risk\/ Medium Risk order simply means that our system has flagged you as Risk of  Fraud due to your Shipping Address, or Credit Card information. But no worries! Sometimes our system can be wrong, which is why we like to contact the customer to verify first 🙂 <\/p>",
+            "page": ""
+          }
+        },
+        "7b5617c2-7eb6-4d91-9329-b614f5b0f51f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "LOST\/ STOLEN PACKAGES",
+            "open": false,
+            "content": "<p>We are not responsible for Lost Packages. In order to avoid such issues, please be sure to purchase Insurance at checkout to have your package covered. We are not responsible for lost or stolen return\/exchange packages. Please use a mail carrier with package insurance and tracking to insure that we receive your product. We must have the product in hand before providing an Exchange or Refund.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
+        "5f34dba8-15e0-4aac-91f7-5a103657361d",
+        "fa2985e2-4983-462b-80c8-596d4ae47540",
+        "7d54b7d6-9f80-4dbe-a475-a88e57b444f6",
+        "fcf037c5-a5fb-4056-8307-53564c6f1263",
+        "ff668a47-8fc3-4cf2-985c-d5d0b7541f5e",
+        "7b5617c2-7eb6-4d91-9329-b614f5b0f51f"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "uppercase_heading": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "3eca4b48-dbc8-4d02-8b71-19fb62a18f96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Didn’t find what you were looking for?"
+          }
+        },
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Please contact us with any questions or problems.",
+            "size": "h2"
+          }
+        },
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call Customer Service: <strong>(201) 355-5193<\/strong> between Monday-Friday 10AM- 3PM<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-subheading-1",
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-heading-1",
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-text-1",
+        "template--14819557769252__3eca4b48-dbc8-4d02-8b71-19fb62a18f96-button-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "16618629918566dc27",
+    "166186303682d7c655",
+    "faq",
+    "3eca4b48-dbc8-4d02-8b71-19fb62a18f96"
+  ]
+}

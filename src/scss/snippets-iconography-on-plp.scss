@@ -1,0 +1,56 @@
+.iconography-on-plp{
+   margin-top: 3em;
+   margin-bottom: 2em; 
+}
+
+.iconography {
+   display: flex;
+   background-color: #FFF0F0;
+   justify-content: space-between;
+
+   &__content {
+      display: flex;
+      width: 25%;
+      height: 90px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+   }
+   &__image img{
+      height: 60px;
+      max-height: max-content;
+      max-width: max-content;
+      width: 70px;
+   }
+   &__text {
+      width: 80%;
+      padding: 10px 0;
+      pointer-events: none;
+   }
+   &__title {
+      color: #000;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.22px;
+   }
+
+   @media (max-width: 480px) {
+      &__title {
+        font-size: 11px;
+        font-weight: 400;
+      }
+      &__text {
+         width: 100%;
+         padding-bottom: 10px;
+         pointer-events: none;
+      }
+      
+    }
+}
+

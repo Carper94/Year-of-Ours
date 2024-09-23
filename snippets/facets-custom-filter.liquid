@@ -1,0 +1,36 @@
+<facet-filters-form>
+  <h3 class="filter-size__title">{{ "general.filter_size" | t | upcase }}</h3>
+  <form id="sizeFilter" class="filter-size__containter">
+    {% for filter in collection.filters %}
+      {% if filter.label == 'Availability' %}
+        {% for available in filter.values limit: 1 %}
+          {% assign filterSizes = collection.filters | where: 'label', 'Size' | first %}
+          {% assign isFilterSize = filterSizes.values | where: 'active', true | first %}
+            <input type="radio"
+              name="{{ available.param_name }}"
+              value="{{ available.value }}"
+              class="input__availability-filter"
+              id="Filter-{{ filter.label }}-{{ forloop.index }}"
+              hidden
+              {% if isFilterSize %}checked{% endif %}
+            >
+        {% endfor %}
+      {% endif %}
+      {% if filter.label == 'Size' %}
+        {% for size in filter.values %}
+          
+          <label for="Filter-{{ filter.label }}-{{ forloop.index }}-custom" class="input__size-filter">
+            {{ size.value }}
+            <input type="radio"
+              name="{{ size.param_name }}"
+              value="{{ size.value }}"
+              id="Filter-{{ filter.label }}-{{ forloop.index }}-custom"
+              hidden
+              {% if size.active %}checked{% endif %}
+            >
+          </label>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </form>
+</facet-filters-form>

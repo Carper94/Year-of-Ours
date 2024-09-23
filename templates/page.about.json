@@ -1,0 +1,623 @@
+{
+  "sections": {
+    "166161901464a25e50": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166161901437c6bc67-1": {
+          "type": "heading",
+          "settings": {
+            "text": "OUR DENIM OUR STORY",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "166161901437c6bc67-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Authentic Colombian apparel straight to your doorstep.<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "166161901437c6bc67-1",
+        "166161901437c6bc67-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/aboutus_1.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 75,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16616191162185f622": {
+      "type": "rich-text",
+      "blocks": {
+        "1661619116558a03c6-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Established in 2012, our doors were first opened in New Jersey by Lisset, a Colombian native. It was not long before Colombiana Boutique opened 3 additional locations across New Jersey.",
+            "size": "h3"
+          }
+        },
+        "3b1b2669-e54f-4216-b1c3-f9c91535c14c": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "In 2018, we opened our online store to allow customers worldwide to shop our top selling product, Levanta Cola or butt lift jeans. Since then they have become a staple in every woman’s closet.",
+            "size": "h3"
+          }
+        },
+        "6c4106b7-c1b1-4014-bc0e-949181eff537": {
+          "type": "heading",
+          "settings": {
+            "text": "We pride ourselves in being your go-to store for quality Colombian fajas and jeans.",
+            "size": "h3"
+          }
+        },
+        "3cc35ef2-6d66-47be-868d-a601981e1e4e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Established in 2012, our doors were first opened in New Jersey by Lisset, a Colombian native. It was not long before Colombiana Boutique opened 3 additional locations across New Jersey. <\/strong><\/p><p><strong>In 2018, we opened our online store to allow customers worldwide to shop our top selling product, Levanta Cola or butt lift jeans. Since then they have become a staple in every woman’s closet.<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "1661619116558a03c6-1",
+        "3b1b2669-e54f-4216-b1c3-f9c91535c14c",
+        "6c4106b7-c1b1-4014-bc0e-949181eff537",
+        "3cc35ef2-6d66-47be-868d-a601981e1e4e"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16623736356fb1e92f": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "16521210505e7fc635": {
+      "type": "image-with-text",
+      "blocks": {
+        "b1bb057f-62ba-4239-a792-dec2a68621a9": {
+          "type": "image",
+          "settings": {
+            "retina": true
+          }
+        },
+        "35ba44fe-0dfa-463a-920a-d0df404ab526": {
+          "type": "space",
+          "settings": {
+            "height": 48
+          }
+        },
+        "100ac1ce-4a1c-45fd-9648-02b517aa76d1": {
+          "type": "image",
+          "settings": {
+            "retina": true
+          }
+        },
+        "5c23121f-d034-4e43-9da0-f63cca2746e0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b1bb057f-62ba-4239-a792-dec2a68621a9",
+        "35ba44fe-0dfa-463a-920a-d0df404ab526",
+        "100ac1ce-4a1c-45fd-9648-02b517aa76d1",
+        "5c23121f-d034-4e43-9da0-f63cca2746e0"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "grid",
+        "layout": "image_first",
+        "content_position": "text-center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16618593470c5f63bd": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166185934718a0a8c1-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "OUR MISSION"
+          }
+        },
+        "166185934718a0a8c1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "OUR MISSION",
+            "heading_size": "h1"
+          }
+        },
+        "166185934718a0a8c1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Our mission is to make sure every woman feels like they have found the curves they deserve. We know how hard it is to find clothes that fits each unique body type. We aim to be a brand that you trust will last in your closet for years to come, and to be consistent in providing trendy, top quality and curve hugging apparel to women of all shapes and sizes.<\/strong><\/p>",
+            "description_size": "medium"
+          }
+        },
+        "baa48f62-cde3-466c-9436-e106114464af": {
+          "type": "space",
+          "settings": {
+            "height": 16
+          }
+        },
+        "166185934718a0a8c1-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "166185934718a0a8c1-0",
+        "166185934718a0a8c1-1",
+        "166185934718a0a8c1-2",
+        "baa48f62-cde3-466c-9436-e106114464af",
+        "166185934718a0a8c1-3"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/aboutus_2.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 75,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16623735222f31e80e": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 5,
+        "spacer_desktop": 10,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "166161906436c7d4d0": {
+      "type": "scrolling-text",
+      "blocks": {
+        "16616190648ddabc05-0": {
+          "type": "text",
+          "settings": {
+            "text": "BUTT LIFTERS",
+            "link": "shopify:\/\/collections\/butt-lifters-shorts",
+            "outline_text": true
+          }
+        },
+        "234a9f9c-a2b0-4da8-9f1e-e9d2d172071b": {
+          "type": "text",
+          "settings": {
+            "text": "FAJAS",
+            "link": "shopify:\/\/collections\/fajas-colombianas",
+            "outline_text": false
+          }
+        },
+        "16616190648ddabc05-2": {
+          "type": "text",
+          "settings": {
+            "text": "BUTT LIFT JEANS",
+            "link": "shopify:\/\/collections\/colombian-jeans",
+            "outline_text": true
+          }
+        },
+        "16616190648ddabc05-1": {
+          "type": "text",
+          "settings": {
+            "text": "SHAPING BODYSUITS",
+            "link": "shopify:\/\/collections\/shaping-bodysuit",
+            "outline_text": false
+          }
+        },
+        "ba1716c1-8be0-4e0f-be77-6f82e93ff8cc": {
+          "type": "text",
+          "settings": {
+            "text": "LEGGINGS",
+            "link": "shopify:\/\/collections\/butt-lift-leggings-1",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16616190648ddabc05-0",
+        "234a9f9c-a2b0-4da8-9f1e-e9d2d172071b",
+        "16616190648ddabc05-2",
+        "16616190648ddabc05-1",
+        "ba1716c1-8be0-4e0f-be77-6f82e93ff8cc"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 60,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1662373455c24650d9": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 20,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "1662373200967c613c": {
+      "type": "rich-text",
+      "blocks": {
+        "1662373200dc732b07-1": {
+          "type": "heading",
+          "settings": {
+            "text": "TEAM VALUES",
+            "size": "h3"
+          }
+        },
+        "1662373200dc732b07-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FAIR WAGES<\/strong> - All employees of Colombiana and paid fairly. Gender or race is never a factor when considering our employees wages.<\/p><p><strong>TEAMWORK <\/strong>- We promote an environment of communication, collaboration and mutual respect. We encourage each other to grow and thrive not only at wor, but in life.<\/p><p><strong>QUALITY<\/strong> - All of our jeans are handcrafted in Colombia and go through an extensive process so we can ensure all of your jeans are a perfect fit down to every single detail. Our product team always makes sure to choose only the best fabrics for all of our products.<\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "1662373200dc732b07-1",
+        "1662373200dc732b07-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "6750bfe4-e658-411c-9b3b-2f0ef623b8b0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meettheteam_1.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Christian",
+            "text": "<p><strong>CO-CEO OF COLOMBIANA<\/strong><\/p><ul><li>loves dogs<\/li><li>CUTS clothing<\/li><li>working out<\/li><\/ul><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meettheteam_1b.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Lisset",
+            "text": "<p><strong>CO-CEO OF COLOMBIANA & PRODUCT MANAGER<\/strong><\/p><ul><li>traveling to Colombia<\/li><li>loves dogs<\/li><li>being with family and friends<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meettheteam_1c.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Team Name",
+            "text": "<p><strong>Title<\/strong><\/p><ul><li>xxx<\/li><li>xxxxxxxxx<\/li><li>xxxx<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meettheteam_1d.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Team Name",
+            "text": "<p><strong>Title<\/strong><\/p><ul><li>xxx<\/li><li>xxxxxxxxx<\/li><li>xxxx<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3d5e717d-1083-4f0f-af7e-df92b3786269": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meettheteam_1b.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Team Name",
+            "text": "<p><strong>Title<\/strong><\/p><ul><li>xxx<\/li><li>xxxxxxxxx<\/li><li>xxxx<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bd981879-b18e-437f-8d5f-6941bf7193c2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meettheteam_1c.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Team Name",
+            "text": "<p><strong>Title<\/strong><\/p><ul><li>xxx<\/li><li>xxxxxxxxx<\/li><li>xxxx<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "76d2aa10-3c8e-42bf-b2de-d55c786e282a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meettheteam_1.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Team Name",
+            "text": "<p><strong>Title<\/strong><\/p><ul><li>xxx<\/li><li>xxxxxxxxx<\/li><li>xxxx<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-0",
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-1",
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-2",
+        "template--14819557605412__6750bfe4-e658-411c-9b3b-2f0ef623b8b0-1688997457f8f8f38e-3",
+        "3d5e717d-1083-4f0f-af7e-df92b3786269",
+        "bd981879-b18e-437f-8d5f-6941bf7193c2",
+        "76d2aa10-3c8e-42bf-b2de-d55c786e282a"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "MEET THE TEAM",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "circle",
+        "columns_desktop": 5,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "e0810428-37fd-4579-910d-d3828a0d722c": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-0",
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-1",
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-2",
+        "template--14819557605412__e0810428-37fd-4579-910d-d3828a0d722c-1688998257c5af0773-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1661619131dc23111f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "166161913112fa572a-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "RESPONSIBLE MATERIALS",
+            "text": ""
+          }
+        },
+        "166161913112fa572a-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "LUXURY-GRADE MATERIALS",
+            "text": ""
+          }
+        },
+        "166161913112fa572a-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "LIGHTWEIGHT CLOTH",
+            "text": ""
+          }
+        },
+        "4753b34b-0a98-4cc7-81c5-f7a462d46603": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "WORLD CLASS CRAFTING",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "166161913112fa572a-0",
+        "166161913112fa572a-1",
+        "166161913112fa572a-2",
+        "4753b34b-0a98-4cc7-81c5-f7a462d46603"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "xlarge",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1661619177029ffd60": {
+      "type": "gallery",
+      "blocks": {
+        "0d86c2a6-f30c-40b5-9391-99b5bb12959b": {
+          "type": "image",
+          "settings": {
+            "subheading": "Add a tagline",
+            "title": "Column",
+            "text": "Pair text with an image to focus on your chosen image",
+            "link_label": "Explore",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "0e695f58-8205-43ec-8762-4137844e2d33": {
+          "type": "image",
+          "settings": {
+            "subheading": "Add a tagline",
+            "title": "Column",
+            "text": "Pair text with an image to focus on your chosen image",
+            "link_label": "Explore",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0d86c2a6-f30c-40b5-9391-99b5bb12959b",
+        "0e695f58-8205-43ec-8762-4137844e2d33"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": false,
+        "image_ratio": "landscape",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "column_spacing": "none",
+        "heading_size": "h1",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "166161901464a25e50",
+    "16616191162185f622",
+    "16623736356fb1e92f",
+    "16521210505e7fc635",
+    "16618593470c5f63bd",
+    "16623735222f31e80e",
+    "166161906436c7d4d0",
+    "1662373455c24650d9",
+    "1662373200967c613c",
+    "6750bfe4-e658-411c-9b3b-2f0ef623b8b0",
+    "e0810428-37fd-4579-910d-d3828a0d722c",
+    "1661619131dc23111f",
+    "1661619177029ffd60"
+  ]
+}

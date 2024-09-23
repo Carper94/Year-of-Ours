@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "0efce7b4-4044-4728-8e57-32a92ffc36db": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "79138e6f-e9c9-450b-b348-bf321cce3534": {
+      "type": "collection-list",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "SHOP BY SUPPORT LEVEL",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "support-stage-1-faja-smooth",
+          "support-stage-2-faja-shape",
+          "support-stage-3-faja-sculpt",
+          "support-stage-4-faja-ultra-sculpt"
+        ],
+        "image_ratio": "adapt",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "67271c98-298f-4dad-b6ec-d905e923a125": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Talk about your brand",
+            "size": "h3"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-subheading-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-heading-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-text-1",
+        "template--14823467384868__67271c98-298f-4dad-b6ec-d905e923a125-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_ddXTG3": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/promotion_collectionbanner_6.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/collection_promotionbanner_1column_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.colombianaboutique.com\/pages\/how-to-choose-the-right-support-level-of-shapewear",
+            "use_text_button": false,
+            "block_link": "https:\/\/www.colombianaboutique.com\/pages\/how-to-choose-the-right-support-level-of-shapewear",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "756b329e-18a3-40a1-847e-804dbf2d8ee8"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 23,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "butt-lifters-shorts",
+          "colombian-jeans",
+          "butt-lifting-shorts",
+          "butt-lifting-leggings",
+          "shaping-bodysuit"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 5,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 125,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "166367231494317262": {
+      "type": "rich-text",
+      "blocks": {
+        "1fc06b12-e359-41a2-b694-099a6a7d4133": {
+          "type": "heading",
+          "settings": {
+            "text": "MOMMY MAKEOVER SHAPEWEAR",
+            "size": "h4"
+          }
+        },
+        "16636723131a14a571-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your post-Mommy Makeover journey with a specially designed women’s faja from Colombiana Boutique, tailored to enhance and celebrate your stunning transformation. Crafted with precision and care, our shapewear collection is your secret weapon for feeling fabulous and confident. Whether you've recently undergone a tummy tuck, breast lift, C-section, or other transformative procedures, our shapewear offers the support and comfort you deserve. Embrace your renewed self and relish in the beauty of your journey with our Mommy Makeover faja..<\/p><p>Our women's faja collection includes options catering to your unique needs. Whether you're in search of a post C-section faja, post-surgery faja, or a faja for after pregnancy, Colombiana Boutique has the perfect solution to feel your absolute best.<\/p><p>Our Mommy Makeover Fajas are thoughtfully designed to provide gentle compression, aiding in the recovery of your post-pregnancy body. These fajas for women offer not only support but also a touch of elegance, ensuring you feel empowered and beautiful every step of the way.<\/p><p>At Colombiana Boutique, we celebrate the strength and resilience of mothers. Our Mommy Makeover Fajas are here to support you in your journey towards embracing your postpartum body with love and confidence. Explore our collection today and experience the comfort, style, and functionality that Colombiana Boutique is known for. <\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "1fc06b12-e359-41a2-b694-099a6a7d4133",
+        "16636723131a14a571-2"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "0efce7b4-4044-4728-8e57-32a92ffc36db",
+    "79138e6f-e9c9-450b-b348-bf321cce3534",
+    "67271c98-298f-4dad-b6ec-d905e923a125",
+    "spacer_ddXTG3",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "166367231494317262",
+    "166367228131c52c01"
+  ]
+}
